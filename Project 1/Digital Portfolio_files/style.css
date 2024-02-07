@@ -1,0 +1,169 @@
+*{
+   margin: 0; 
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+   overflow: hidden;
+   box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+}
+
+li{
+    /* list-style: none; */
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(18, 155, 155);
+    color: white;
+    padding: 3px 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+header{
+    padding: 40px 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.logo:hover{
+    font-weight: 12000;
+    cursor: pointer;
+    color: rgb(61, 59, 59);
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+nav ul li{
+    color : black;
+    font-weight: 500;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    
+}
+
+.search-bar{
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    padding: 4px 10px;
+}
+
+
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    margin: 20px 30px 50px 30px;
+    /* display: inline; */
+
+}
+
+.left-section{
+    width: 60%;
+    padding: 0 8%;
+
+}
+
+.left-section h1{
+    font-size: 48px;
+    font-weight: 800;
+    /* padding: 0 8%; */
+
+}
+
+.left-section h1 span{
+    font-size: 50px;
+    background-color:rgb(230, 230, 238);
+    color:  rgb(18, 155, 155) ;
+    margin-bottom: 100%;
+
+}
+
+.left-section p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.left-section p span{
+    color:  rgb(18, 155, 155) ;
+    font-size: 33px; 
+    font-weight: 700;   
+    gap: 40px;
+}
+
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 40%;
+}
+
+.chat-with-us{
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-section img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul{
+    display: flex;
+    font-size: 2em;
+    gap: 20px;
+}
+
+
+

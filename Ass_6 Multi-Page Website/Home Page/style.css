@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #F0F4F5;
+}
+
+body{
+    overflow: hidden;
+
+
+}
+
+/* Designing  header part */
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;  
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header{
+    margin: 20px 120px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+nav img{
+    scale: 0.7 ;
+}
+
+nav ul {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+/*  Desingning main Section */
+main{
+    display: flex;
+    /* align-items: center; */
+ 
+}
+
+.leftSection{
+    margin-left: 150px;
+    margin-top: 90px;
+    width: 70%;
+
+
+}
+
+.leftSection h1{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 80px;
+}
+
+.leftSection p{
+    font-size: 18px;
+    font-weight: 400;
+
+    color:#7C7C7C;
+    margin-top: 20px;
+    
+}
+
+button{
+    margin-top: 20px;
+    color:RGB(255, 255, 255);
+    background-color:#20BC7E;
+    font-size: 25px;
+    padding:15px 40px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 40px;
+    border: none;
+}
+
+img[alt="topAngle"]{
+    scale: 0.9;
+    margin-bottom: 10px;
+}
+img[alt="bottomAngle"]{
+    scale: 0.9;
+    margin-left: 330px;
+}
+
+img[alt="stethoscope"]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    scale: 0.6;
+    background: transparent;
+    margin-left: 200px;
+    margin-top: -50px; 
+}
+img[alt="mouse"]{
+    scale: 0.8;
+    margin-left: 30px;
+    margin-bottom: -40px;
+    position: relative;
+}
+
+/* Right Section */
+
+.rightSection{
+    /* overflow: hidden; */
+    width: 30%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+img[alt="greenBox"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    scale: 0.7;
+    margin-right: -100px;
+    margin-top: -70px;
+
+}
+
+
+img[alt="yellowBox"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    scale: 0.66;
+    background: transparent;
+    margin-right: -102px;
+    margin-top: -20px;
+}
+
+img[alt="doctor"]{
+    position: absolute  ;
+    top: 0;
+    right: 0;
+    scale: 0.7;
+    background: transparent;
+    margin-right: -100px;
+    margin-top: -170px;
+}

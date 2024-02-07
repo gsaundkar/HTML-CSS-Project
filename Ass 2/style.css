@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding: 30px 85px 40px 30px;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+ul{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    align-content: space-around ;
+}
+ul:hover{
+    cursor: pointer;
+}
+
+.img-logo{
+    margin-right: 45px;
+}
+
+button{
+    align-items: center;
+    align-content: center;
+    background-color: rgb(149, 110, 186);
+    padding: 10px 25px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+button:hover{
+    background-color: rgb(218, 216, 216);
+    color: black;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.main-sec{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+}
+
+.left-sec{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+h1{
+    font-size: 50px;
+    text-align: start;
+    color: rgb(62, 62, 133);
+    line-height: 55px;
+    letter-spacing: 0.01em;
+}
+span{
+    color: rgb(148, 96, 194);
+}
+p{
+    margin-top: 10px;
+    color: rgb(144, 142, 142);
+    font-size: small;
+    
+}
+.left-sec-button{
+    margin-top: 30px;
+
+}
+
+
+
+.img{
+    display: flex;
+    
+}
+main img{
+    width: 800px;
+    height: 500px;
+    padding: 0px 40px 0px 120px;
+
+    
+   
+}
